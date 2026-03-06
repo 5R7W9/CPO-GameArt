@@ -8,7 +8,7 @@ ai_model=latest             # meshy-5 | meshy-6 | latest
 
 # --- 拓扑设置（model_type=standard时有效）---
 topology=quad               # quad | triangle
-target_polycount=10000       # 100-300000
+target_polycount=100000       # 100-300000
 should_remesh=true          # true | false
 
 # --- 纹理设置 ---
