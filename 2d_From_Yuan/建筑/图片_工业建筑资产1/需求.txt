@@ -1,9 +1,24 @@
-低多边形复古3d游戏资产
-关键词：PS2 game graphics
-early 2000s video game
-Dreamcast era game
-low resolution textures
+# ===========================================
+# Meshy API 需求！这个文件夹里的图片都按照这个需求生成！
+# ===========================================
 
-面数尽量低，拓扑为四边面
+# --- 模型设置 ---
+model_type=standard          # standard | lowpoly
+ai_model=latest             # meshy-5 | meshy-6 | latest
 
-输出为FBX格式，需要带纹理
+# --- 拓扑设置（model_type=standard时有效）---
+topology=quad               # quad | triangle
+target_polycount=10000       # 100-300000
+should_remesh=true          # true | false
+
+# --- 纹理设置 ---
+should_texture=true         # true | false
+enable_pbr=true            # true | false
+
+# --- 其他设置 ---
+remove_lighting=true         # true | false
+image_enhancement=true      # true | false
+symmetry_mode=auto          # off | auto | on
+
+# --- 风格描述（用于prompt）---
+风格关键词=PS2 game graphics, early 2000s video game, pixelated textures
