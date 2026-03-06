@@ -1,0 +1,9 @@
+低多边形复古3d游戏资产
+关键词：PS2 game graphics
+early 2000s video game
+Dreamcast era game
+low resolution textures
+
+面数尽量低，拓扑为四边面
+
+输出为FBX格式，需要带纹理
